@@ -7,26 +7,27 @@
     <author email="info@bracketdash.com" href="http://www.bracketdash.com">
         BracketDash team
     </author>
-    <content src="index.html" />
-    <plugin name="org.apache.cordova.file-transfer"/>
-  <plugin spec="https://github.com/tiltshiftfocus/cordova-plugin-cache.git" source="git" />
-  <plugin spec="https://github.com/apache/cordova-plugin-device.git" source="git"/>
-  <plugin spec="https://github.com/cdibened/filechooser.git" source="git" />
-  <plugin spec="https://github.com/hazemhagrass/phonegap-base64.git" source="git" />
-  <plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git" />
+<content src="index.html" />
+<plugin name="org.apache.cordova.file-transfer"/>
+<plugin spec="https://github.com/tiltshiftfocus/cordova-plugin-cache.git" source="git" />
+<plugin spec="https://github.com/apache/cordova-plugin-device.git" source="git"/>
+<plugin spec="https://github.com/cdibened/filechooser.git" source="git" />
+<plugin spec="https://github.com/hazemhagrass/phonegap-base64.git" source="git" />
+<plugin spec="https://github.com/katzer/cordova-plugin-background-mode.git" source="git" />
 
-  <gap:plugin name="org.apache.cordova.splashscreen" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-  <preference name="android-minSdkVersion" value="5" />
-  <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#c13234" />
+<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+<preference name="android-minSdkVersion" value="5" />
+<preference name="StatusBarOverlaysWebView" value="false" />
+<preference name="StatusBarBackgroundColor" value="#c13234" />
 <preference name="DisallowOverscroll" value="true" />
-    <access origin="*" />
-  <access origin="transloadit.com" />
-  <access origin="*.transloadit.com" />
+<preference name="prerendered-icon" value="true" />
+<access origin="*" />
+<access origin="transloadit.com" />
+<access origin="*.transloadit.com" />
 
-  <icon src="res/ios/icon.png" gap:platform="ios" width="57" height="57"/>
+<icon src="res/ios/icon.png" gap:platform="ios" width="57" height="57"/>
 <icon src="res/ios/icon57.png" gap:platform="ios" width="57" height="57" />
 <icon src="res/ios/icon72.png" gap:platform="ios" width="72" height="72" />
 <icon src="res/ios/icon76.png" gap:platform="ios" width="76" height="76" />
